@@ -9,6 +9,7 @@ import { DatosComponent } from './Component/pages/datos/datos.component';
 import { GaleriaComponent } from './Component/pages/galeria/galeria.component';
 import { InicioComponent } from './Component/pages/inicio/inicio.component';
 import { MapaComponent } from './Component/pages/mapa/mapa.component';
+import { FooterComponent } from './Component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MapaComponent } from './Component/pages/mapa/mapa.component';
     DatosComponent,
     GaleriaComponent,
     InicioComponent,
-    MapaComponent
+    MapaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
